@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>inputTypes.html</title>
+</head>
+<body>
+	<h2>문자 입력 양식</h2>
+	<form>
+		<p>이름: <input type="text" name="name" size="10"></p>
+		<p>학번: <input type="text" name="name" size="10" value=""></p>
+		<p>학과: <input type="text" name="school" value="컴퓨터과학과"></p>
+		<p></p>
+	</form>
+	<h2>텍스트 공간 입력 양식</h2>
+	<form>
+		<textarea rows="5" cols="50">텍스트를 작성하는 공간입니다.</textarea>
+		<p></p>
+	</form>
+	<h3>그룹별 선택 항목을 제공합니다.</h3>
+	<form>
+	<label>전공분야를 선택하세요
+		<select name="major">
+			<optgroup label="computer">
+				<option>Software</option>
+				<option>Robot</option>
+				<option>System</option>
+			</optgroup>
+			<optgroup label="language">
+				<option>English</option>
+				<option>China</option>
+				<option>Germany</option>
+			</optgroup>
+			<optgroup label="business">
+				<option>Service</option>
+				<option>Education</option>
+				<option>Communication</option>
+				<option>Marketing</option>				
+			</optgroup>
+		</select>
+		<p></p>
+		<input type="submit" value="전송">
+		<input type="reset" value="다시작성">	
+	</label>
+	</form>
+</body>
+</html>
